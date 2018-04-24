@@ -1,4 +1,72 @@
 
 body {
     background-image: url(../../assets/images/dust_scratches.png);
+    padding-bottom: 
+}
+
+@keyframes name-grad { 
+    0%{background-position:0% 72%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 72%}
+}
+.navbar-brand {
+    background: linear-gradient(45deg,#4aaaa5 30%, #aa4a4f, #4aaaa5);
+    background-size: 400% 400%;
+    animation: name-grad 1.5s ease-in-out;
+    color: white !important;
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background: linear-gradient(122deg,#4aaaa5, #3b8683, #4aaaa5);
+    background-size: 400% 400%;
+    animation: name-grad 1s ease-in-out;
+}
+.nav-item:hover .nav-link {
+    color: white !important;
+}
+
+.active {
+    text-decoration: overline double #4aaaa5;
+    color: #7c7c7d !important;
+}
+
+.header-pages {
+    color: #4aaaa5;
+}
+
+.container {
+    margin-bottom: 5%;
+}
+
+.img-btn {
+    background-color: #4aaaa5;
+    position: relative; 
+    bottom: 80px;
+    padding: 15px;
+    color: white;
+    opacity: .8;
+}
+.port-link:link {
+    text-decoration: none;
+}
+
+.port-link:visited {
+    text-decoration: none;
+}
+
+@keyframes gradient-txt { 
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+
+.div-img:hover .img-btn {
+    background: linear-gradient(107deg, #aa754a, #4aaaa5, #aa4a7f);
+    background-size: 600% 600%;
+    animation: gradient-txt 4s ease-in-out infinite;
+    opacity: 1;
 }
