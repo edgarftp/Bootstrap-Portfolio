@@ -4,6 +4,12 @@ body {
     padding-bottom: 
 }
 
+.navbar-toggler {
+    float: right;
+    margin-top: 10px;
+
+}
+
 @keyframes name-grad { 
     0%{background-position:0% 72%}
     50%{background-position:100% 29%}
@@ -42,10 +48,6 @@ body {
     margin-bottom: 5%;
 }
 
-.navbar {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .img-btn {
     background-color: #4aaaa5;
