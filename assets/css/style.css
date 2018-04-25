@@ -4,11 +4,6 @@ body {
     padding-bottom: 
 }
 
-.navbar-toggler {
-    float: right;
-    margin-top: 10px;
-
-}
 
 @keyframes name-grad { 
     0%{background-position:0% 72%}
